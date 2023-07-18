@@ -1,0 +1,268 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.header{
+   background-image:url(../images/banner1.png);
+   padding: 350px;
+   background-repeat:no-repeat;
+   background-color: hsl(0, 0%, 100%);
+  
+}
+.banner{
+  
+   margin-left: 500px;
+   text-align: right;
+}
+.banner-conatainer{
+   display:flex;
+   align-items:end;
+}
+.banner-title{
+color: var(--dark-01, #151414);
+text-align: right;
+font-family: Work Sans;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 525px;
+}
+.banner-description{
+   color:  #444343;
+text-align: right;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding: 10px;
+width: 494px;
+}
+.btn{
+      width: 160px;
+      padding: 12px 10px;
+      justify-content: center;
+      border-radius: 5px;
+      background: #F15B22;
+      color: white;
+      width: 160px;
+      height: 64px;
+}
+.btn-primary{
+   margin-left:350px ;
+}
+/* My failures of previous year */
+.my-failures{
+   margin:250px;
+   padding-top:5px;
+   text-align: center;
+
+}
+.year{
+  
+   text-align: right;
+   display: flex;
+
+}
+.year-container{
+   
+   align-items:center;
+
+}
+.year-title{
+   text-align:center;
+color: var(--dark-01, #151414);
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 40px;
+}
+.year-description{
+   color: var(--dark-02, #444343);
+   font-family: Work Sans;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px; /* 162.5% */
+   text-align: center;
+   padding: 30px;
+   word-wrap: normal;
+ 
+}
+.img{
+width: 151px;
+height: 598px;
+flex-shrink: 0;
+padding: 20px;
+position: absolute;
+
+}
+.sub-description{
+color: var(--dark-02, #444343);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+word-wrap: normal;
+
+}
+/* my plan */
+.my-plans{
+   margin:0px;
+   padding-top:5px;
+   text-align: center;
+  
+}
+.plan-title{
+   text-align: center;
+   font-size:40px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 600px;
+   padding: 30px;
+  
+}
+.plan{
+  text-align: center;
+ margin-left: 215px;
+
+   
+  
+}
+.plan-conatainer{
+   
+   display: flex; 
+   align-items: center;
+  
+   
+}
+.icon{
+   text-align: center;
+   margin: 50px;
+}
+.icon-title{
+   color: var(--dark-01, #151414);
+text-align: center;
+font-family: Work Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.icon-description{
+   color: var(--dark-03, #737272);
+text-align: center;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+
+/* always keep positive mindset */
+.positive{
+  margin: 20;
+}
+.mindset{
+   padding: 20px;
+ 
+   }
+   .mindset-container{
+      background-position:center;
+   background-repeat: no-repeat;
+   border-radius: 5px;
+   background-image: url(../images/watch.png);
+   padding: 100px;
+   display: flex;
+  margin: 50px;
+   text-align: center;
+   align-items:center;
+
+   }
+   .mindset-title{
+color: #FFF;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align:left;
+margin-left: 100px;
+
+
+   }
+   .btn2{
+      padding:10px 20px;
+      background-color:white;
+      border-radius: 5px;
+      justify-content: flex-start;
+     
+   }
+   .call-now{
+color: #F15B22;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+   }
+   /* footer */
+   .footer{
+      background-color:black;
+       margin-top: 50px;
+       padding: 50px;
+   }
+   .footer-container{
+      display: flex;
+
+   }
+   .ft{
+  color: #151414;
+   }
+   .ft-title{
+      color: #FFF;
+
+   }
+   .ft-descript{
+      color: #737272;
+      padding-right: 550px;
+      margin: 20px 0px;
+
+   }
+   /* sub */
+   .sub{
+      margin-right: 200px;
+
+
+
+   }
+   .sub-title{
+      color: #FFF;
+      font-size: 30px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 600;
+      padding-bottom: 10px;
+
+   }
+   .sub-btn{
+    
+      justify-content: center;
+      border-radius: 5px;
+      background:white;
+      color:  #F15B22;
+      width: 150px;
+      height: 50px;
+      margin-top: 10px;
+     
+   }
+
+
+
+
